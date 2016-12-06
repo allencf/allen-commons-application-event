@@ -9,6 +9,20 @@
   
   <dependencies>
   
+     <!-- 基础数据依赖 -->
+     <dependency>
+     	<groupId>com.allen.commons</groupId>
+     	<artifactId>allen-commons-baselibs</artifactId>
+        <version>${commons.baselibs.version}</version>
+     </dependency>
+     
+     <!-- 自定义模块依赖 -->
+     <dependency>
+        <groupId>com.allen.custom</groupId>
+        <artifactId>allen-custom-define</artifactId>
+        <version>1.0.0</version>
+     </dependency>
+     
      <!-- spring 相关依赖 -->
   	 <dependency>
 		<groupId>org.springframework</groupId>
